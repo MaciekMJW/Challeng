@@ -8,7 +8,7 @@ if (woman == true)
     {
         Console.WriteLine("Ewa, lat 33");
     }
-    else if (age >= 18 && age < 30)
+    else if (age < 30)
     {
         Console.WriteLine("Kobieta poniżej 30 lat");
     }
