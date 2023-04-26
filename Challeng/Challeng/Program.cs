@@ -1,34 +1,71 @@
-﻿var name = "Ewa";
-var woman = false;
-var age = 18;
+﻿var number = 124433350;
+string numberAsString = number.ToString();
+char[] letters = numberAsString.ToArray();
 
-if (woman == true)
+int counter0 = 0;
+int counter1 = 0;
+int counter2 = 0;
+int counter3 = 0;
+int counter4 = 0;  
+int counter5 = 0;
+int counter6 = 0;
+int counter7 = 0;
+int counter8 = 0;
+int counter9 = 0;
+
+Console.WriteLine("Ile i jakich cyfr występuje w liczbie " + number); 
+
+foreach (char letter in letters)
 {
-    if (name == "Ewa" && age == 33)
+    if(letter =='0')
     {
-        Console.WriteLine("Ewa, lat 33");
+        counter0++;
     }
-    else if (age < 30)
+    else if (letter == '1')
     {
-        Console.WriteLine("Kobieta poniżej 30 lat");
+        counter1++;
     }
-    else if (age >= 30)
+    else if (letter == '2')
     {
-        Console.WriteLine("Kobieta po 30-stce");
+        counter2++;
     }
-    else if (age < 18)
+    else if (letter == '3')
     {
-        Console.WriteLine("Niepełnoletnia kobieta");
+        counter3++;
+    }
+    else if (letter == '4')
+    {
+        counter4++;
+    }
+    else if (letter == '5')
+    {
+        counter5++;
+    }
+    else if (letter == '6')
+    {
+        counter6++;
+    }
+    else if (letter == '7')
+    {
+        counter7++;
+    }
+    else if (letter == '8')
+    {
+        counter8++;
+    }
+    else if (letter == '9')
+    {
+        counter9++;
     }
 }
-else
-
-    if (age < 18)
-    {
-        Console.WriteLine("Niepelnoletni mężczyzna");
-    }
-    else if (age >= 18)
-    {
-        Console.WriteLine("Mężczyzna");
-    }
+Console.WriteLine("cyfra 0 występuje " + counter0);
+Console.WriteLine("cyfra 1 występuje " + counter1);
+Console.WriteLine("cyfra 2 występuje " + counter2);
+Console.WriteLine("cyfra 3 występuje " + counter3);
+Console.WriteLine("cyfra 4 występuje " + counter4);
+Console.WriteLine("cyfra 5 występuje " + counter5);
+Console.WriteLine("cyfra 6 występuje " + counter6);
+Console.WriteLine("cyfra 7 występuje " + counter7);
+Console.WriteLine("cyfra 8 występuje " + counter8);
+Console.WriteLine("cyfra 9 występuje " + counter9);
 
