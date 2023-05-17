@@ -38,4 +38,4 @@ foreach (var employee in employees)
         employeeWithMaxResult = employee;
     }
 }
-Console.WriteLine(employeeWithMaxResult.name + " " + employeeWithMaxResult.surname + ", wiek " + employeeWithMaxResult.age + ", punkty " + maxResult);
+Console.WriteLine(employeeWithMaxResult.Name + " " + employeeWithMaxResult.Surname + ", wiek " + employeeWithMaxResult.Age + ", punkty " + maxResult);
