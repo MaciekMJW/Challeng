@@ -2,7 +2,7 @@ using Challeng;
 
 namespace ChallengApp.Test
 {
-    public class Tests
+    public class UserTests
     {
         
         [Test]
